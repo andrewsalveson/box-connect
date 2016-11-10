@@ -21,7 +21,7 @@ app.use(morgan('dev')); // log every request to the console
 var port       = process.env.PORT || 80;
 
 // routes =====================================================================
-require('./routes')(app);
+require('./app/routes')(app);
 
 // start the server ===========================================================
 app.listen(port);
