@@ -1,0 +1,16 @@
+// edit this file and save as 'box.js'
+// you'll also have to generate your public key
+// and put it in this folder
+
+var fs   = require('fs');
+var path = require('path');
+
+module.exports = {
+  clientID:    : 'CLIENT_ID',
+  clientSecret : 'CLIENT_SECRET',
+  appAuth: {
+    keyID      : 'KEY_ID',
+    privateKey : fs.readFileSync(path.resolve(__dirname,'./public.pem')),
+    passphrase : 'passphrase'
+  }
+};

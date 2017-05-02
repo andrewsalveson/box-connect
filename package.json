@@ -1,0 +1,24 @@
+{
+  "name": "box-connect",
+  "version": "1.0.0",
+  "description": "connect to the Box API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha app/tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.perkinswill.com/DigitalPractice/box-connect"
+  },
+  "author": "Andrew Salveson <andrew.salveson@perkinswill.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "box-node-sdk": "^1.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mocha": "^3.1.2",
+    "morgan": "^1.7.0"
+  }
+}
