@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.perkinswill.com/DigitalPractice/box-connect"
+    "url": "https://github.com/andrewsalveson/box-connect"
   },
-  "author": "Andrew Salveson <andrew.salveson@perkinswill.com>",
+  "author": "Andrew Salveson <andrewsalveson@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
